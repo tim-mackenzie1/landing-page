@@ -12,8 +12,12 @@ body{
 .two,
 .three,
 .four {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.one {
+    padding-bottom:100px;
 }
 
 .one,
@@ -34,12 +38,16 @@ body{
 .logo {
     font-size: 24px;
     color:#F9FAF8;
-    padding-top: 0;
+    padding-bottom:0;
 }
 
 .header {
     display:flex;
     justify-content: space-between;
+    align-content:center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+
 }
 
 ul {
@@ -47,6 +55,7 @@ ul {
     padding-left: 0;
     display: flex;
     gap: 18px;
+
 }
 
 a {
@@ -57,11 +66,13 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    border: 1px red solid;
 }
 
 .hero-left {
-    border: 1px red solid;
+    width: 700px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .hero-title {
@@ -73,9 +84,10 @@ a {
 .hero-right{
     Display:flex;
     background-color:#E5E7EB;
-    height: 160px;
-    width: 200px;  
-    border: 1px red solid;
+    height: 200px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
