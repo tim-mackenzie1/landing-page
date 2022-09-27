@@ -96,15 +96,6 @@ button {
     color: white;
 }
 
-.quote-text {
-    font-size: 32px;
-    font-style:italic;   
-}
-
-.author {
-    font-weight:bold;
-}
-
 .footer {
     display:flex;
     flex-direction:column;
@@ -143,4 +134,25 @@ button {
 .item-three,
 .item-four {
     width: 200px
+}
+
+.three {
+    display:flex;
+    justify-content: center;
+}
+.quote {
+    padding:150px;  
+    width: 500px;  
+}
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 8px;
+   
+}
+
+.author {
+    font-weight:bold;
+    text-align:right
 }
