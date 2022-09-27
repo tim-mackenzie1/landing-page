@@ -5,17 +5,26 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
+    border: 1px solid red;
+    height: auto;
 }
-.top,
+
+.one,
+.two,
+.three,
+.four {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.one,
 .footer {
     background-color:#1F2937
 }
 
-.top {
-    display:flex;
-    flex-direction: column;
+.three {
+    background-color:#E5E7EB;   
 }
 
 .smol,
@@ -60,9 +69,6 @@ button {
 }
 
 .hero-right{
-    background-color:#E5E7EB;   
-}
-.quote {
     background-color:#E5E7EB;   
 }
 
