@@ -6,8 +6,6 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    border: 1px solid red;
-    height: auto;
 }
 
 .one,
@@ -28,8 +26,7 @@ body{
 }
 
 .smol,
-.footer,
-ul {
+.footer {
     font-size: 18px;
     color:#e5e7eb;
 }
@@ -37,6 +34,7 @@ ul {
 .logo {
     font-size: 24px;
     color:#F9FAF8;
+    padding-top: 0;
 }
 
 .header {
@@ -48,28 +46,41 @@ ul {
     list-style: none;
     padding-left: 0;
     display: flex;
+    gap: 18px;
 }
 
 a {
     text-decoration: none;
+    color:#e5e7eb;
 }
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
 }
+
+.hero-left {
+    border: 1px red solid;
+}
+
 .hero-title {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
 }
 
+.hero-right{
+    Display:flex;
+    background-color:#E5E7EB;
+    height: 160px;
+    width: 200px;  
+    border: 1px red solid;
+}
+
 button {
     background-color: #3882f6;
     color: white;
-}
-
-.hero-right{
-    background-color:#E5E7EB;   
 }
 
 .quote-text {
@@ -85,4 +96,16 @@ button {
     display:flex;
     flex-direction:column;
     align-items: center;
+}
+
+.rando {
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.items {
+    display: flex;
+    gap: 52px;
+
 }
