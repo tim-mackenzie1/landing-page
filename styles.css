@@ -1,0 +1,47 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: center;
+}
+
+.top,
+.footer {
+    background-color:#1F2937
+}
+
+.top {
+    display:flex;
+    flex-direction: column;
+}
+
+.smol,
+ul {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quote {
+    background-color:#E5E7EB;
+}
