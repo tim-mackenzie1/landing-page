@@ -171,6 +171,10 @@ button {
     color: white;
 }
 
+.box-header {
+    font-weight:bolder;
+}
+
 .footer {
     display:flex;
     flex-direction:column;
